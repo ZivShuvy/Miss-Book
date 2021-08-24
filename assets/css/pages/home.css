@@ -1,0 +1,49 @@
+.home {
+    background: url(/assets/img/hero.jpg);
+    height: 85vh;
+    background-size: cover;
+}
+
+.home-container {
+    position: absolute;
+    top: 40%;
+    right: 3%;
+    text-align: center;
+    animation: fadein 3s;
+}
+
+.home-container h1 {
+    font-size: 3rem;
+    font-family: eurofurence;
+    text-transform: capitalize;
+}
+
+.home-container span {
+    color: #24B3A8;
+}
+
+.get-started-btn {
+    color: #282828;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    font-size: 1.25rem;
+    padding: 10px;
+    transition: background-color 400ms;
+    cursor: pointer;
+    transition: background-color .5s;
+    margin-top: 20px;
+}
+
+.get-started-btn:hover {
+    background-color: #fff;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

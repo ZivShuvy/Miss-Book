@@ -1,0 +1,12 @@
+@import url('./setup.css');
+@import url('./cmps/header.css');
+@import url('./cmps/footer.css');
+@import url('./cmps/book-filter.css');
+@import url('./pages/book-app.css');
+@import url('./cmps/book-preview.css');
+@import url('./pages/book-details.css');
+@import url('./cmps/review-add.css');
+@import url('./pages/about.css');
+@import url('./pages/home.css');
+@import url('./pages/book-add.css');
+@import url('./cmps/user-msg.css');
